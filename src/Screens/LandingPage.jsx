@@ -69,7 +69,7 @@ export default function LandingPage() {
 
   const fetchComments = async () => {
     setIsLoading(true)
-    const apiKey = "AIzaSyCkivBe46AdhpuiVneurxvRQHYeGqWH8gY" // Replace with your actual API key
+    const apiKey = "AIzaSyDKtHyTfo-l9UO_ZHJh2Xz0jPhFpS5PV2o" // Replace with your actual API key
     const CommentDetailsUrl = `https://www.googleapis.com/youtube/v3/commentThreads?part=snippet&videoId=${videoId}&key=${apiKey}&maxResults=${perPageComments}&pageToken=${nextPageToken}`
 
     try {
